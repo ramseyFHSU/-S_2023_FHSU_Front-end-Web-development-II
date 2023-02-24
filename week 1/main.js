@@ -4,8 +4,8 @@ const age = 30; // Declare a constant variable using "const" keyword and assign 
 var address; // Declare a variable using "var" keyword (no value assigned)
 
 // Reassigning variables
-name = "Jane Smith"; // Reassign the "name" variable with a new string value
-age = 35; // This will throw an error because "age" is a constant variable
+myName = "Jane Smith"; // Reassign the "name" variable with a new string value
+// This will throw an error because "age" is a constant variable
 address = "123 Main St"; // Assign a string value to the "address" variable
 
 // Variable Types
@@ -25,7 +25,7 @@ function myFunction() {
 }
 
 myFunction();
-console.log(localVariable); // This will throw an error because "localVariable" is not defined in the global scope
+// console.log(localVariable); // This will throw an error because "localVariable" is not defined in the global scope
 
 // Number data type
 let int = 10;
