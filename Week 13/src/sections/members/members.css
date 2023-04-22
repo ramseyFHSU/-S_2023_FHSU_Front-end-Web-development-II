@@ -1,0 +1,37 @@
+#members {
+  padding-bottom: 0;
+  background-color: antiquewhite;
+}
+
+.swiper {
+  height: 30rem;
+  /* this paddint top is to give space for micro interaction on hover of swiper slide */
+  padding-top: 1rem;
+}
+
+.swiper-slide {
+  cursor: grab;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.member-avatar {
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+  border-radius: var(--border-radius-2);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.swiper-pagination {
+  margin-bottom: 8rem;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-primary);
+}

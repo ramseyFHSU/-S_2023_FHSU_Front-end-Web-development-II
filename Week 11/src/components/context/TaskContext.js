@@ -47,7 +47,7 @@ export const TaskProvider = ({ children }) => {
     newTask.checked = false;
     try {
       const docRef = addDoc(collection(db, "taskList"), newTask);
-      console.log("Document written: ", docRef.id);
+      // console.log("Document written: ", docRef.id);
       setTaskList((preTaskList) => [
         ...preTaskList,
         { id: docRef.id, data: newTask },
